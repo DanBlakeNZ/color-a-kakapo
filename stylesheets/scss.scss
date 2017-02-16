@@ -3,101 +3,122 @@ body{
   margin: 0px;
   padding: 0px;
   font-family: 'Raleway', sans-serif;
-  background-image: url(../assets/images/bush.jpg);
+  background-image: url(../assets/images/bush_edited.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   color: white;
-  letter-spacing: 0.15em;
-}
-
-p{
-  padding: 0em;
-  margin: 0em;
+  box-sizing: border-box;
 }
 
 ul{
-  padding: 0px;
-  margin: 0px;
-}
-
-li{
   list-style: none;
 }
 
-h1{
-  text-align: center;
-  font-size: 3.3em;
-  text-transform: uppercase;
-  letter-spacing: 0.5em;
-
-}
-
 .color{
-  width:3em;
-  height:3em;
+  width: 2em;
+  height: 2em;
+  margin-bottom: 0.5em;
   border: 0.1em solid black;
-  margin: 0.5em;
-  cursor: pointer;
   box-sizing: border-box;
-
-  &:hover{
-    border: 0.3em solid gold;
-  }
+  cursor: pointer;
 }
 
 .selected{
-  border: 0.3em solid gold;
-}
-
-.color-satch-row{
-  display: inline-block;
+  border: 0.2em solid gold;
 }
 
 
-
-#color-swatch-wrapper{
-  max-width: 50%;
-  padding: 4%;
-  margin: 0px auto;
-  text-align: center;
-  font-size: 1.25em;
-  line-height: 1.5em;
-  box-sizing: border-box;
-}
-
-
-#owlsvg{
-  max-width: 70%;
-  cursor: pointer;
-}
-
-#colouring-container{
-  width: 100%;
-  margin: 0px auto;
-  display: flex;
-}
 
 #page-container{
   width: 100%;
-  height: 100vh;
+}
+
+#swatch-container{
+  display: flex;
+}
+
+#title{
+  font-size: 1.8em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #008080;
+  padding: 0.5em 0em;
+  border-top: 0.1em solid #FF1493;
+  border-bottom:  0.1em solid #FF1493;
+}
+
+#into-text{
+  font-size: 0.8em;
+  letter-spacing: 0.15em;
+  line-height: 1.2em;
+  text-align: center;
+  background-color: black;
+  padding: 0.5em;
   margin: 0px auto;
-  padding: 4em;
-  background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.38) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.38) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.38) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#61000000',GradientType=0 ); /* IE6-9 */
-  box-sizing: border-box;
+  max-width: 90%;
+  border: 0.2em solid #008080;
+  border-radius: 2%;
 }
 
-#svg-wrapper{
-  width: 50%;
+#kakpo-container{
+  width: 90%;
+  max-width: 500px;
+  margin: 1em auto;
 }
 
-#title-container{
-  width: 100%;
+#kakapo-svg{
+  cursor: pointer;
 }
+
+#swatch-container{
+  width: 90%;
+  max-width: 330px;
+  margin: 1em auto;
+  background-color: white;
+  border: 0.15em solid #FF1493;
+
+}
+
+#made-by{
+  margin: 1em auto;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+@media (min-width: 920px) {
+
+  #title{
+    max-width: 900px;
+    margin: 1em auto;
+    border: 0.1em solid #FF1493;
+  }
+
+  #into-text{
+    max-width: 900px;
+    font-size: 1em;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+
+  #artspace-wrapper{
+    display: flex;
+    max-width: 900px;
+    margin: 1em auto;
+  }
+
+  #swatch-container{
+    margin-top: 10em;
+    max-height: 230px;
+  }
+}
+
+
+
 
 
 //COLOURS//

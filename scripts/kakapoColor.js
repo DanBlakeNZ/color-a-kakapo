@@ -26,7 +26,7 @@ $(document).ready(function() {
 
 
   //When the owl image is clicked the function will check to see which part (id) of the svg image was clicked, and then apply a fill to that part of the image.
-  $("#owlsvg").click(function(event){
+  $("#kakapo-svg").click(function(event){
     $(event.target).attr('style', selectedFill);
   });
 
