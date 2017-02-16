@@ -10,6 +10,7 @@ body{
   background-position: center;
   color: white;
   box-sizing: border-box;
+  webkit-tap-highlight-color: transparent;
 }
 
 ul{
@@ -71,6 +72,7 @@ ul{
 
 #kakapo-svg{
   cursor: pointer;
+  webkit-tap-highlight-color: transparent;
 }
 
 #swatch-container{
