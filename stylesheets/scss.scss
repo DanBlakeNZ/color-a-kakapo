@@ -68,11 +68,11 @@ ul{
   width: 90%;
   max-width: 500px;
   margin: 1em auto;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
 #kakapo-svg{
   cursor: pointer;
-  webkit-tap-highlight-color: transparent;
 }
 
 #swatch-container{
