@@ -15,6 +15,7 @@ body{
 
 ul{
   list-style: none;
+  padding: 0px;
 }
 
 .color{
@@ -24,6 +25,11 @@ ul{
   border: 0.1em solid black;
   box-sizing: border-box;
   cursor: pointer;
+}
+
+.color-swatch-row{
+  display: flex;
+  margin: 0px auto;
 }
 
 .selected{
