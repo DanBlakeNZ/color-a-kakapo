@@ -19,7 +19,9 @@ $(document).ready(function() {
   //Removes the previous swatch highlight, adds the highlight to the clicked swatch.//
   function highlightSwatch(){
     oldSwatch.removeClass('selected');
+    oldSwatch.html("");
     clickedSwatch.addClass('selected');
+    clickedSwatch.html('<i class="fa fa-paint-brush" aria-hidden="true"></i>');
     oldSwatch = clickedSwatch;
   }
 

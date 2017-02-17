@@ -23,6 +23,7 @@ ul{
   height: 2em;
   margin-bottom: 0.5em;
   border: 0.1em solid black;
+  border-radius: 10%;
   box-sizing: border-box;
   cursor: pointer;
 }
@@ -34,9 +35,13 @@ ul{
 
 .selected{
   border: 0.2em solid gold;
+  text-align: center;
+  padding-top: 0.25em;
 }
 
-
+.fa-paint-brush{
+  color: black;
+}
 
 #page-container{
   width: 100%;
@@ -53,8 +58,8 @@ ul{
   text-align: center;
   background-color: #008080;
   padding: 0.5em 0em;
-  border-top: 0.1em solid #FF1493;
-  border-bottom:  0.1em solid #FF1493;
+  border-top: 0.2em solid #FF1493;
+  border-bottom:  0.2em solid #FF1493;
 }
 
 #into-text{
@@ -86,8 +91,8 @@ ul{
   max-width: 330px;
   margin: 1em auto;
   background-color: white;
-  border: 0.15em solid #FF1493;
-
+  border: 0.2em solid #FF1493;
+  border-radius: 3%;
 }
 
 #made-by{
